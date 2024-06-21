@@ -1,0 +1,12 @@
+from Bio.Seq import Seq
+from Bio.Alphabet import IUPAC
+
+# Define a collagen-like sequence (Gly-Pro-X is a common motif in collagen)
+collagen_seq = "Gly-Pro-Gly-Pro-Gly-Pro-Gly-Pro-Gly-Pro"
+
+# Create a Seq object
+collagen_protein = Seq(collagen_seq, IUPAC.protein)
+
+# Print the sequence
+print("Collagen-like protein sequence:")
+print(collagen_protein)
