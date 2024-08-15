@@ -27,3 +27,6 @@ Important Considerations
     Hardware Specifications: The script must be tailored to the specific hardware and capabilities of the bioprinter being used.
 
 In a real application, you would need detailed knowledge of the bioprinter's API and the specific requirements of the bioink and cells being used. This script serves as a basic conceptual framework.
+
+
+Support us at https://cellmiracles.org/
